@@ -77,6 +77,16 @@ class PublicKeyRing {
         walletType: WalletType.mnemonic,
         isHardware: false,
       };
+      allKeys["0xfF7aD565af4Ec93d10Ec8208d522b62BAC47AE48"] = {
+        address: "0xfF7aD565af4Ec93d10Ec8208d522b62BAC47AE48",
+        basePath: "m/44'/60'/1'/0",
+        name: "bruh",
+        pathIndex: 0,
+        publicKey: "0x0",
+        signerType: SignerType.secp256k1,
+        walletType: WalletType.mnemonic,
+        isHardware: false,
+      };
     }
     return allKeys;
   }
